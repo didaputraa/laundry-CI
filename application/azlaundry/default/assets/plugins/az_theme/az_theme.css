@@ -1,0 +1,209 @@
+.login-container {
+	text-align: center;
+	margin-top: 40px;
+}
+.box-login-wrapper {
+	max-width: 100%;
+	width: 300px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.83);
+	padding: 15px;
+}
+.box-login input {
+	border-radius: 15px !important;
+    background-color: #e8f8ff;
+    border: 1px solid #9cd7f1;
+    color: #22bbff;
+    padding-left: 31px;
+}
+
+.btn-login {
+	border-radius: 20px;
+    background-color: #00b1ff !important;
+    border: none;
+    padding: 8px 40px;
+    outline: none !important;
+}
+
+.form-control:focus {
+    border-color: #9cd7f1;
+    box-shadow: 0 0 8px rgb(156, 215, 241);
+}
+
+.field-login {
+	margin-bottom: 10px;
+	position: relative;
+}
+	.field-login i {
+		position: absolute;
+		left: 13px;
+		top: 10px;
+		color: #22bbff;
+	}
+
+
+.box-sales-transaction {
+	margin-top: 20px;
+}
+	.box-sales-transaction .numb {
+		padding-left: 2px;
+		padding-right: 2px;
+		text-align: center;
+	}
+	.box-sales-transaction .product-qty {
+	
+	}
+	.box-sales-transaction .product-unit {
+	}
+	.box-sales-transaction .product-price {
+		text-align: right;
+	}
+	.box-sales-transaction .product-discount {
+		text-align: right;
+	}
+	.box-sales-transaction .product-add-cost {
+		text-align: right;
+	}
+	.box-sales-transaction .product-tax {
+		text-align: right;
+	}
+	.box-sales-transaction .product-total {
+		text-align: right;
+	}
+
+
+.box-price {
+	width: 59%;
+	display: inline-block;
+	vertical-align: top;
+	top: -55px;
+	right: 3px;
+	text-align: right;
+	position: absolute;
+}
+.box-detail {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.table-info {
+	display: inline-block;
+}
+	.table-info td {
+		padding: 2px;
+	}
+		.table-info tr td:nth-child(1) {
+			font-weight: bold;
+		}
+
+.container-product-search {
+	position: relative;
+}
+	.btn-search-product {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+
+.table-product th {
+	text-align: center;
+}
+
+.table-description th, .table-description td {
+	padding: 2px;
+}
+.table-price td {
+	padding: 2px;
+}
+
+.container-body-login {
+	background-color: white;
+    background-image: linear-gradient(90deg, rgba(0, 126, 200, 0.25) 50%, transparent 50%), linear-gradient(rgba(0, 196, 255, 0.18) 50%, transparent 50%);
+    background-size: 50px 50px;
+}
+
+.container-detail {
+    min-height: 185px;
+    position: relative;
+}
+
+.bottom-field {
+	padding: 10px;
+	margin-bottom: 20px;
+    border-top: 2px dotted #ccedff;
+    border-bottom: 2px dotted #ccedff;
+}
+
+.table-profit-wrapper {
+	margin-top: 20px;
+	font-size: 14px;
+}
+.product-name {
+	min-width: 200px;
+}
+.box-home {
+	margin-bottom: 30px;
+}
+.box-info {
+	padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+}
+	.box-info i {
+		float: right;
+	    margin-top: -68px;
+	    font-size: 57px;
+	    margin-right: 10px;
+	}
+	.box-info.new {
+    	background-color: #038edc;
+	}
+	.box-info.prog {
+    	background-color: #7bc8f3;
+	}
+	.box-info.finish {
+    	background-color: orange;
+	}
+	.box-info.approved {
+    	background-color: #00d800;
+	}
+
+#sales_transaction {
+	font-size: 12px;
+}
+
+
+@media (max-width: 767px) {
+	.box-price {
+		position: relative;
+	    top: 0px;
+	    right: 0;
+	    width: 100%;
+	}
+	.box-detail {
+		width: 100%;
+	}
+	.box-sales-transaction .product-qty {
+		min-width: 70px;
+	}
+	.box-sales-transaction .product-unit {
+	}
+	.box-sales-transaction .product-price {
+		min-width: 120px;
+	}
+	.box-sales-transaction .product-discount {
+		min-width: 120px;
+	}
+	.box-sales-transaction .product-add-cost {
+		min-width: 120px;
+	}
+	.box-sales-transaction .product-tax {
+		min-width: 120px;
+	}
+	.box-sales-transaction .product-total {
+		min-width: 120px;
+	}
+}

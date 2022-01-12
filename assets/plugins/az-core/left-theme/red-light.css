@@ -1,0 +1,68 @@
+.az-ltheme-header {
+	background-color: #525050;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: #cc1e12 !important;
+}
+
+.btn-primary {
+    background-color: #f44336;
+    border-color: #f44336 !important
+}
+.az-header-toolbar {
+    color: #fff;
+}
+.container-language .az-language-list button.active {
+    background-color: #2fadf5;
+}
+
+.account-detail .account-detail-content {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 3px solid rgb(134, 133, 132);
+    border-bottom: 3px solid rgb(134, 133, 132);
+}
+.az-ltheme-body, body {
+    background-color: #fffbfb;
+}
+.az-ltheme-body .az-ltheme-left {
+    background-color: #f44336;
+}
+
+.az-menu ul > li:hover, .az-menu ul > li.active {
+    background-color: #da0f00;
+}
+.az-menu ul > li ul {
+    background-color: #ea1000;
+}
+.az-menu ul li a {
+	color: #fff;
+}
+.az-menu ul > li:hover > a, .az-menu ul > li.active > a, .az-menu ul > li.is-active > a {
+	color: #fff;
+}
+.az-menu {
+	color: #fff;
+}
+
+.modal-header {
+    background-color: #ff9d95;
+    color: #ffffff;
+}
+.modal-footer {
+    background-color: #ff9d95;
+}
+.az-modal-close {
+    background-color: #f44336;
+}
+    .az-modal-close:hover {
+        background-color: #a20d02;
+    }
+.az-modal-close .caret-close {
+    border-left: 18px solid #940f06;
+}
+
+.az-ltheme-image-header .image-header {
+    background-color: #464646;
+}
